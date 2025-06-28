@@ -1,39 +1,83 @@
 body {
-  background: linear-gradient(to bottom, #f8a6d1, #e194d0);
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#f9c, #f6f);
+    color: #440022;
 }
 header {
-  background-color: #fff;
-  padding: 10px;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 10px 0;
-}
-nav ul li {
-  margin: 0 15px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background: #fff;
 }
 .logo {
-  width: 100px;
-  display: block;
-  margin: 0 auto;
+    height: 60px;
+    margin-bottom: 0.5em;
 }
-main {
-  padding: 20px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+nav a {
+    text-decoration: none;
+    color: #550055;
+    font-weight: bold;
+}
+.portada {
+    text-align: center;
+    padding: 2em 1em;
+}
+.portada h1 {
+    font-size: 2em;
+}
+.portada .frase {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #660033;
+}
+.portada .presentacion {
+    max-width: 600px;
+    margin: 0 auto;
+}
+section {
+    padding: 2em 1em;
+}
+h2 {
+    text-align: center;
+    color: #800050;
+}
+.subseccion h3 {
+    margin-top: 2em;
+    text-align: center;
+    color: #990066;
+}
+.producto {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+button {
+    background: #cc0099;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
 }
 footer {
-  background-color: #fff;
-  padding: 10px;
-  font-size: 14px;
+    text-align: center;
+    padding: 1em;
+    background: #fff;
 }
