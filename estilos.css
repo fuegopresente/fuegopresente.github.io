@@ -1,111 +1,39 @@
-
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to bottom, #f9c4e3, #fbcfe8);
-    color: #333;
-    line-height: 1.6;
-    padding-top: 80px;
+  background: linear-gradient(to bottom, #f8a6d1, #e194d0);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-
-/* HEADER */
 header {
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 999;
-    padding: 20px;
-    text-align: center;
+  background-color: #fff;
+  padding: 10px;
 }
-
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
 .logo {
-    max-height: 60px;
-    margin-bottom: 10px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
 }
-
-nav {
-    margin-top: 10px;
+main {
+  padding: 20px;
 }
-
-nav a {
-    text-decoration: none;
-    color: #c026d3;
-    font-weight: bold;
-    margin: 0 15px;
-    font-size: 16px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* SECCIONES */
-section {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-h1, h2 {
-    color: #9d174d;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-h3 {
-    color: #7e22ce;
-    margin-top: 10px;
-}
-
-p {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* TARJETAS DE PRODUCTO */
-.producto {
-    background: #fff;
-    border-radius: 12px;
-    padding: 20px;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
-    max-width: 300px;
-}
-
-.producto img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-button {
-    background-color: #9333ea;
-    color: white;
-    padding: 10px 16px;
-    border: none;
-    border-radius: 8px;
-    margin-top: 10px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #7e22ce;
-}
-
-/* FOOTER */
 footer {
-    text-align: center;
-    padding: 20px;
-    color: #666;
-    font-size: 14px;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 14px;
 }
